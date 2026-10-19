@@ -1,5 +1,7 @@
 # SlideHudVolume
 
+**🌐 Website:** [turhe123.github.io/slide-hud-volume](https://turhe123.github.io/slide-hud-volume/)
+
 Replace the volume pop-up with a slim bar you can drag, and change volume in fine steps from your keys.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,17 @@ SlideHudVolume is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="SlideHudVolume menu bar panel" width="720"></p>
+
+<p align="center"><em>The menu bar panel with takeover, a volume slider, HUD position, step size, HUD size, fade delay, Launch at login and Preview HUD.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-hud.png" alt="SlideHudVolume floating volume HUD" width="560"></p>
+
+<p align="center"><em>The slim floating HUD shows the speaker glyph, the output device name, a draggable level bar and the percentage.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-step-size.png" alt="Step size picker with four options" width="560"></p>
+
+<p align="center"><em>Pick how far each volume key press moves: Coarse (1/8), Normal (1/16), Fine (1/64) or Extra Fine (1%).</em></p>
 
 ## Install
 

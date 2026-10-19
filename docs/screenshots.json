@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar panel with takeover, a volume slider, HUD position, step size, HUD size, fade delay, Launch at login and Preview HUD.","alt":"SlideHudVolume menu bar panel"},
+  {"file":"02-hud.png","caption":"The slim floating HUD shows the speaker glyph, the output device name, a draggable level bar and the percentage.","alt":"SlideHudVolume floating volume HUD"},
+  {"file":"03-step-size.png","caption":"Pick how far each volume key press moves: Coarse (1/8), Normal (1/16), Fine (1/64) or Extra Fine (1%).","alt":"Step size picker with four options"}
+]

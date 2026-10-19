@@ -1,0 +1,24 @@
+{
+  "seo_title": "A better volume HUD for macOS",
+  "seo_description": "SlideHudVolume is a free, open-source macOS menu bar app that replaces the volume pop-up with a slim draggable bar and fine-grained volume key steps.",
+  "hero_title_line1": "Volume, with a bar",
+  "hero_title_accent": "you can actually drag.",
+  "hero_sub": "SlideHudVolume replaces the stock volume pop-up with a slim floating bar. Click or drag it to set an exact level, or use your volume keys in fine steps. Hold Option for 1% steps.",
+  "features_title": "Finer control over volume.",
+  "features_sub": "A small native menu bar app that talks directly to Core Audio, with no accounts and no network access.",
+  "features": [
+    {"icon": "keyboard", "title": "Volume keys, your step size", "desc": "Takes over volume up, down and mute, and hides the stock overlay. Choose Coarse (1/8), Normal (1/16), Fine (1/64) or Extra Fine (1%)."},
+    {"icon": "cursor", "title": "Click or drag to set level", "desc": "Set an exact volume directly on the bar. The HUD stays up while you hover or drag, and never blocks clicks otherwise."},
+    {"icon": "speaker", "title": "Shows device and level", "desc": "A speaker glyph that reflects the level, the output device name, and a percentage or Muted. It stays in sync with changes from other sources and when you switch devices."},
+    {"icon": "display", "title": "Multi-display and full screen", "desc": "The HUD appears on the display with your pointer and floats over full-screen apps. It is not shown while the screen is locked."},
+    {"icon": "sliders", "title": "Menu bar settings", "desc": "Set HUD position, size from 0.75x to 1.75x, fade delay from 0.5 to 6 seconds, and Launch at login."},
+    {"icon": "shield", "title": "Safe fallback", "desc": "If an output has no software volume, such as some HDMI monitors, the HUD says so and the key press passes through to macOS untouched."}
+  ],
+  "permissions_step": "Grant Accessibility access in System Settings > Privacy & Security > Accessibility so the app can capture the volume keys.",
+  "faq": [
+    {"q": "Is SlideHudVolume really free and open source?", "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. There are no accounts, no telemetry and no network access. If it is useful to you, there is an optional Support button in the menu."},
+    {"q": "What permissions does it need?", "a": "Accessibility access, which macOS requires for the event tap that captures the volume and mute keys. Without it the HUD and drag bar still work from the menu bar, but key capture is off. Launch at login is optional and uses the standard login item API."},
+    {"q": "Where is my data stored?", "a": "Only your settings, such as step size, position and fade delay, are stored locally in the standard macOS preferences (UserDefaults). Nothing is sent anywhere, and the app reads and sets volume through Core Audio on your Mac."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it yourself from source with Xcode."}
+  ]
+}
